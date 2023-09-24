@@ -26,7 +26,7 @@ const routes = [
             name: "MsgDeatil",
             component: MessageDetail,
             // 将路由传过来的值作为属性传递给组件
-            props:route=>({id:route.params.id,content:route.query.content})
+            props: route => ({ id: route.params.id, content: route.query.content })
           },
         ]
       },
@@ -39,7 +39,7 @@ const routes = [
             path: "detail/:id",
             name: "NewsDeatil",
             component: NewsDetail,
-            props:route=>({id:route.params.id})
+            props: route => ({ id: route.params.id })
           },
         ]
       },
